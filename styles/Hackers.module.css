@@ -1,0 +1,33 @@
+.hackerItem {
+  background-color: rgb(35, 35, 35);
+  margin: 15px 0;
+  padding: 5px 25px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 20px solid transparent;
+}
+.hackerItem:hover {
+  border-left: 20px solid rgb(149, 0, 255);
+}
+
+.hackerLink {
+  border: none;
+}
+
+.hackerBtn {
+  background-color: transparent;
+  border: 1px solid rgb(156, 0, 253);
+  color: rgb(197, 197, 197);
+  font-weight: light;
+  border-radius: 4px;
+  padding: 5px 15px;
+  width: 100px;
+  height: 40px;
+  transition: 0.2s;
+}
+.hackerBtn:hover {
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.446);
+  cursor: pointer;
+}
